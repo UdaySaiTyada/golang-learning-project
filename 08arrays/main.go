@@ -23,4 +23,7 @@ func main() {
 
 	var array = [5]int{1, 2, 3, 4, 5}
 	fmt.Println(array)
+
+	var stringArray = [10]string{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j"}
+	fmt.Println(stringArray)
 }
