@@ -38,4 +38,12 @@ func main() {
 	fmt.Println(highScores)
 	fmt.Println(sort.IntsAreSorted(highScores))
 
+	// REMOVING ELEMENTS FROM SLICE BASED ON INDEX
+	var numbers = []int{0, 1, 2, 3, 4, 5, 6}
+	fmt.Println(numbers)
+
+	index := 3
+	numbers = append(numbers[:index], numbers[index+1:]...)
+
+	fmt.Println(numbers)
 }
